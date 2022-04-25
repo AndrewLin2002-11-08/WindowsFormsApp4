@@ -100,6 +100,7 @@
             this.label10.Size = new System.Drawing.Size(72, 20);
             this.label10.TabIndex = 26;
             this.label10.Text = "Stadium:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
@@ -155,6 +156,7 @@
             this.labelmanagerkanan.Size = new System.Drawing.Size(51, 20);
             this.labelmanagerkanan.TabIndex = 35;
             this.labelmanagerkanan.Text = "label4";
+            this.labelmanagerkanan.Click += new System.EventHandler(this.labelmanagerkanan_Click);
             // 
             // labelcaptainkanan
             // 
